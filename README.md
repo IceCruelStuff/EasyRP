@@ -33,7 +33,7 @@ To build EasyRP from source you need the following
   - CMake (for discord-rpc library)  
   
 Build discord-rpc  
-  - ``` git clone https://github.com/Pizzabelly/EasyRP --recurse-submodules ```  
+  - ``` git clone https://github.com/IceCruelStuff/EasyRP --recurse-submodules ```  
   - ``` cd EasyRP/discord-rpc ```  
   - ``` mkdir build && cd build ```  
   - ``` cmake .. -DENABLE_IO_THREAD=OFF ``` -DENABLE_IO_THREAD option will prevent a link error (see [#49](https://github.com/Pizzabelly/EasyRP/issues/49))  
