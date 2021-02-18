@@ -42,11 +42,11 @@ void updatePresence(config_t *c) {
     // corrected
     if (c->state.length() < 1 || c->state.length() > 128) {
         printf("\nState parameter is too long or not set\n");
-        return;
+        // return;
     }
     if (c->details.length() < 1 || c->details.length() > 128) {
         printf("\nDetails parameter is too long or not set\n");
-        return;
+        // return;
     }
     if (c->large_img.key.length() < 1 || c->large_img.key.length() > 100) {
         printf("\nLargeImage parameter not set\n");
